@@ -8,145 +8,301 @@
 <body>
     <header id="inicio">
         <h1>Blog Técnico</h1>
-        <p>Noticias sobre sistemas, redes y seguridad informática.</p>
+        <p>Actualidad sobre sistemas informáticos, redes y seguridad.</p>
         <nav>
             <ul>
-                <li><a href="#noticia1">Seguridad informática</a></li>
-                <li><a href="#noticia2">Servicios en la nube</a></li>
-                <li><a href="#noticia3">Copias de seguridad</a></li>
+                <li>
+                    <a href="#noticia1">Actualización de seguridad de Windows</a>
+                </li>
+                <li>
+                    <a href="#noticia2">Implementación de Docker</a>
+                </li>
+                <li>
+                    <a href="#noticia3">Copias de seguridad</a>
+                </li>
             </ul>
         </nav>
     </header>
     <main>
         <article id="noticia1">
-            <h2>Actualización de seguridad de Windows</h2>
-            <p>Publicado el <time datetime="2026-10-20">20 de octubre de 2026</time> por Javi García</p>
+            <h2>Actualizaciones de seguridad en Windows</h2>
+            <p>
+                Publicado el
+                <time datetime="2026-11-03">3 de noviembre de 2026</time>
+                por Javier García Fernández.
+            </p>
             <section>
                 <h3>Descripción del problema</h3>
-                <p>Los sistemas operativos pueden presentar vulnerabilidades de seguridad que deben corregirse.</p>
+                <p>
+                    Los sistemas operativos pueden contener vulnerabilidades
+                    que permiten a los atacantes acceder a información
+                    privada o comprometer la seguridad del equipo.
+                </p>
+                <p>
+                    Microsoft publica periódicamente actualizaciones
+                    destinadas a solucionar errores y mejorar la
+                    protección de sus sistemas operativos.
+                </p>
             </section>
             <section>
-                <h3>Solución aplicada</h3>
-                <p>Es recomendable instalar las actualizaciones oficiales para proteger el equipo.</p>
-                <a href="https://www.microsoft.com/es-es/security" target="_blank" rel="noopener noreferrer">
-                    <img src="img\windows.png" alt="Seguridad de Windows">
+                <h3>Solución y recomendaciones</h3>
+                <p>
+                    Para mantener Windows protegido es importante
+                    instalar las actualizaciones de seguridad
+                    mediante Windows Update.
+                </p>
+                <p>
+                    También es recomendable utilizar un antivirus
+                    actualizado, realizar copias de seguridad
+                    y evitar descargar archivos desconocidos.
+                </p>
+                <a href="https://www.microsoft.com/es-es/security"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="img/windows.png"
+                         alt="windows"
+                         width="200">
                 </a>
             </section>
             <section>
                 <h3>Comentarios</h3>
                 <form>
-                    <label>
-                        Nombre: <input type="text" name="nombre1" required>
-                    </label>
-                    <br>
-                    <label>
-                        Correo: <input type="email" name="correo1" required>
-                    </label>
-                    <br>
-                    <label>
-                        Comentario:
-                        <textarea name="comentario1" rows="5" cols="40"></textarea>
-                    </label>
-                    <br>
-                    <label>
-                        <input type="checkbox" name="privacidad1" required>
-                        Acepto la política de privacidad
-                    </label>
-                    <br>
-                    <button type="submit">Enviar</button>
+                    <fieldset>
+                        <legend>Deja tu comentario</legend>
+                        <label>
+                            Nombre:
+                            <input type="text" name="nombre1" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Correo electrónico:
+                            <input type="email" name="correo1" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Comentario:
+                            <textarea name="comentario1"
+                                      rows="5"
+                                      cols="40"
+                                      required></textarea>
+                        </label>
+                       </br>
+                       </br>
+                        <label>
+                            <input type="checkbox"
+                                   name="privacidad1"
+                                   required>
+                            Acepto la política de privacidad.
+                        </label>
+                        </br>
+                        </br>
+                        <button type="submit">Enviar comentario</button>
+                    </fieldset>
                 </form>
             </section>
+
         </article>
+        <hr>
         <article id="noticia2">
-            <h2>Implementación de Docker</h2>
-            <p>Publicado el <time datetime="2026-10-21">21 de octubre de 2026</time> por Javi García</p>
+            <h2>Implementación de Docker en servidores</h2>
+            <p>
+                Publicado el
+                <time datetime="2026-11-03">3 de noviembre de 2026</time>
+                por Javi García Fernández.
+            </p>
             <section>
                 <h3>¿Qué es Docker?</h3>
-                <p>Docker permite ejecutar aplicaciones dentro de contenedores.</p>
+                <p>
+                    Docker es una plataforma que permite ejecutar
+                    aplicaciones mediante contenedores.
+                </p>
+                <p>
+                    Los contenedores permiten agrupar una aplicación
+                    junto con sus dependencias, facilitando su
+                    instalación y funcionamiento en diferentes equipos.
+                </p>
             </section>
             <section>
-                <h3>Ventajas de Docker</h3>
-                <p>Permite desplegar aplicaciones de forma rápida y sencilla.</p>
-                <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
-                    <img src="img\docker.png" alt="Logotipo de Docker">
+                <h3>Ventajas de utilizar Docker</h3>
+                <p>
+                    Una de las principales ventajas de Docker es
+                    que permite desplegar aplicaciones de forma
+                    rápida y eficiente.
+                </p>
+                <p>
+                    Además, facilita la administración de servicios,
+                    mejora la portabilidad de las aplicaciones y
+                    permite aprovechar los recursos del servidor.
+                </p>
+                <a href="https://www.docker.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="img/docker.png"
+                         alt="docker"
+                         width="200">
                 </a>
             </section>
             <section>
-                <h3>Comentarios</h3>
+                <h3>Comentarios</h3
                 <form>
-                    <label>
-                        Nombre: <input type="text" name="nombre2" required>
-                    </label>
-                    <br>
-                    <label>
-                        Correo: <input type="email" name="correo2" required>
-                    </label>
-                    <br>
-                    <label>
-                        Comentario:
-                        <textarea name="comentario2" rows="5" cols="40"></textarea>
-                    </label>
-                    <br>
-                    <label>
-                        <input type="checkbox" name="privacidad2" required>
-                        Acepto la política de privacidad
-                    </label>
-                    <br>
-                    <button type="submit">Enviar</button>
+                    <fieldset>
+                        <legend>Deja tu comentario</legend>
+                        <label>
+                            Nombre:
+                            <input type="text" name="nombre2" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Correo electrónico:
+                            <input type="email" name="correo2" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Comentario:
+                            <textarea name="comentario2"
+                                      rows="5"
+                                      cols="40"
+                                      required></textarea>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            <input type="checkbox"
+                                   name="privacidad2"
+                                   required>
+                            Acepto la política de privacidad.
+                        </label>
+                        </br>
+                        </br>
+                        <button type="submit">Enviar comentario</button>
+                    </fieldset>
                 </form>
             </section>
         </article>
+        <hr>
         <article id="noticia3">
             <h2>Importancia de las copias de seguridad</h2>
-            <p>Publicado el <time datetime="2026-10-22">22 de octubre de 2026</time> por Javi García</p>
+            <p>
+                Publicado el
+                <time datetime="2026-11-03">3 de noviembre de 2026</time>
+                por Javi García Fernández.
+            </p>
             <section>
-                <h3>¿Por qué hacer copias de seguridad?</h3>
-                <p>Las copias de seguridad permiten recuperar información ante fallos del sistema.</p>
+                <h3>¿Por qué realizar copias de seguridad?</h3>
+                <p>
+                    Las copias de seguridad permiten recuperar
+                    información importante cuando se produce
+                    un fallo del sistema, un ataque informático
+                    o un borrado accidental de archivos.
+                </p>
+                <p>
+                    Son fundamentales tanto para usuarios particulares
+                    como para empresas que necesitan proteger
+                    sus datos.
+                </p>
             </section>
             <section>
-                <h3>Recomendaciones</h3>
-                <p>Es recomendable realizar copias periódicas y almacenarlas en diferentes ubicaciones.</p>
-
-                <a href="https://www.debian.org/" target="_blank" rel="noopener noreferrer">
-                    <img src="img\debian.jpg" alt="Representación de una copia de seguridad">
+                <h3>Buenas prácticas y recomendaciones</h3>
+                <p>
+                    Una de las estrategias más utilizadas es
+                    la regla 3-2-1, que consiste en mantener
+                    tres copias de los datos, utilizar dos tipos
+                    de almacenamiento y guardar una copia
+                    fuera de la ubicación principal.
+                </p>
+                <p>
+                    También es recomendable automatizar las copias,
+                    comprobar periódicamente que funcionan
+                    y realizar pruebas de recuperación.
+                </p>
+                <a href="https://www.debian.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    <img src="img/backup.png"
+                         alt="backup"
+                         width="200">
                 </a>
             </section>
             <section>
                 <h3>Comentarios</h3>
                 <form>
-                    <label>
-                        Nombre: <input type="text" name="nombre3" required>
-                    </label>
-                    <br>
-                    <label>
-                        Correo: <input type="email" name="correo3" required>
-                    </label>
-                    <br>
-                    <label>
-                        Comentario:
-                        <textarea name="comentario3" rows="5" cols="40"></textarea>
-                    </label>
-                    <br>
-                    <label>
-                        <input type="checkbox" name="privacidad3" required>
-                        Acepto la política de privacidad
-                    </label>
-                    <br>
-                    <button type="submit">Enviar</button>
+                    <fieldset>
+                        <legend>Deja tu comentario</legend>
+                        <label>
+                            Nombre:
+                            <input type="text" name="nombre3" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Correo electrónico:
+                            <input type="email" name="correo3" required>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            Comentario:
+                            <textarea name="comentario3"
+                                      rows="5"
+                                      cols="40"
+                                      required></textarea>
+                        </label>
+                        </br>
+                        </br>
+                        <label>
+                            <input type="checkbox"
+                                   name="privacidad3"
+                                   required>
+                            Acepto la política de privacidad.
+                        </label>
+                        </br>
+                        </br>
+                        <button type="submit">Enviar comentario</button>
+                    </fieldset>
                 </form>
             </section>
         </article>
     </main>
     <aside>
         <h2>Enlaces de interés</h2>
+        <p>
+            Documentación oficial y recursos para
+            estudiantes de Administración de Sistemas
+            Informáticos en Red.
+        </p>
         <ul>
-            <li><a href="https://www.debian.org/" target="_blank">Debian</a></li>
-            <li><a href="https://www.cisco.com/" target="_blank">Cisco</a></li>
-            <li><a href="https://www.redhat.com/" target="_blank">Red Hat</a></li>
+            <li>
+                <a href="https://www.debian.org/"
+                   target="_blank" rel="noopener noreferrer">
+                    Debian
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cisco.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    Cisco
+                </a>
+            </li>
+            <li>
+                <a href="https://www.redhat.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    Red Hat
+                </a>
+            </li>
+            <li>
+                <a href="https://learn.microsoft.com/"
+                   target="_blank" rel="noopener noreferrer">
+                    Microsoft Learn
+                </a>
+            </li>
         </ul>
     </aside>
     <footer>
-        <p>&copy; 2026 Javi García - Blog Técnico</p>
+        <p>
+            &copy; 2026 Javi García Fernández.
+            ASIR.
+        </p>
         <a href="#inicio">Volver arriba</a>
     </footer>
 </body>

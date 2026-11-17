@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pruebas</title>
+    <style>
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    border: 2px solid black;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.superior-izquierdo {
+    top: 0;
+    left: 0;
+}
+
+.superior-derecho {
+    top: 0;
+    right: 0;
+}
+
+.inferior-izquierdo {
+    bottom: 0;
+    left: 0;
+}
+
+.inferior-derecho {
+    bottom: 0;
+    right: 0;
+}
+
+.interior {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: black;
+    position: absolute;
+}
+
+.abajo-izquierda {
+    bottom: 0;
+    left: 0;
+}
+
+.arriba-derecha {
+    top: 0;
+    right: 0;
+}
+
+.arriba-izquierda {
+    top: 0;
+    left: 0;
+}
+    </style>
+</head>
+<body>
+    <div class="cuadrado superior-izquierdo">
+        <div class="interior abajo-izquierda"></div>
+    </div>
+
+    <div class="cuadrado superior-derecho">
+        <div class="interior abajo-izquierda"></div>
+    </div>
+
+    <div class="cuadrado inferior-izquierdo">
+        <div class="interior arriba-derecha"></div>
+    </div>
+
+    <div class="cuadrado inferior-derecho">
+        <div class="interior arriba-izquierda"></div>
+</div>
+</body>
+</html>
